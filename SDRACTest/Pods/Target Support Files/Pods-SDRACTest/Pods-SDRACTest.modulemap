@@ -1,0 +1,6 @@
+module Pods_SDRACTest {
+  umbrella header "Pods-SDRACTest-umbrella.h"
+
+  export *
+  module * { export * }
+}

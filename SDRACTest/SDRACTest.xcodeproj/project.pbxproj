@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		D40A69BDC95B1C7DD962965F /* libPods-SDRACTest.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 72A1C0A21AB7FFE53FD1E9C3 /* libPods-SDRACTest.a */; };
 		EFB3733D22018570002DB2C9 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = EFB3733C22018570002DB2C9 /* AppDelegate.m */; };
 		EFB3734022018570002DB2C9 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EFB3733F22018570002DB2C9 /* ViewController.m */; };
 		EFB3734322018570002DB2C9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EFB3734122018570002DB2C9 /* Main.storyboard */; };
@@ -35,6 +36,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		122B40C8F1D9F422901C112C /* Pods-SDRACTest.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SDRACTest.release.xcconfig"; path = "Target Support Files/Pods-SDRACTest/Pods-SDRACTest.release.xcconfig"; sourceTree = "<group>"; };
+		72A1C0A21AB7FFE53FD1E9C3 /* libPods-SDRACTest.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-SDRACTest.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		EFB3733822018570002DB2C9 /* SDRACTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SDRACTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		EFB3733B22018570002DB2C9 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		EFB3733C22018570002DB2C9 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -51,6 +54,7 @@
 		EFB3735B22018572002DB2C9 /* SDRACTestUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SDRACTestUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		EFB3735F22018572002DB2C9 /* SDRACTestUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SDRACTestUITests.m; sourceTree = "<group>"; };
 		EFB3736122018572002DB2C9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F91362945FDE1EB09EF46A7F /* Pods-SDRACTest.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SDRACTest.debug.xcconfig"; path = "Target Support Files/Pods-SDRACTest/Pods-SDRACTest.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +62,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D40A69BDC95B1C7DD962965F /* libPods-SDRACTest.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -78,6 +83,24 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0A7E4CA0912AD3E292FB9611 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				72A1C0A21AB7FFE53FD1E9C3 /* libPods-SDRACTest.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		85D12E15EB21F6E70148C0ED /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				F91362945FDE1EB09EF46A7F /* Pods-SDRACTest.debug.xcconfig */,
+				122B40C8F1D9F422901C112C /* Pods-SDRACTest.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
 		EFB3732F22018570002DB2C9 = {
 			isa = PBXGroup;
 			children = (
@@ -85,6 +108,8 @@
 				EFB3735322018572002DB2C9 /* SDRACTestTests */,
 				EFB3735E22018572002DB2C9 /* SDRACTestUITests */,
 				EFB3733922018570002DB2C9 /* Products */,
+				85D12E15EB21F6E70148C0ED /* Pods */,
+				0A7E4CA0912AD3E292FB9611 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -139,6 +164,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = EFB3736422018572002DB2C9 /* Build configuration list for PBXNativeTarget "SDRACTest" */;
 			buildPhases = (
+				F484AFB090A9999DF1A056F0 /* [CP] Check Pods Manifest.lock */,
 				EFB3733422018570002DB2C9 /* Sources */,
 				EFB3733522018570002DB2C9 /* Frameworks */,
 				EFB3733622018570002DB2C9 /* Resources */,
@@ -256,6 +282,31 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		F484AFB090A9999DF1A056F0 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-SDRACTest-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		EFB3733422018570002DB2C9 /* Sources */ = {
@@ -433,6 +484,7 @@
 		};
 		EFB3736522018572002DB2C9 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F91362945FDE1EB09EF46A7F /* Pods-SDRACTest.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -449,6 +501,7 @@
 		};
 		EFB3736622018572002DB2C9 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 122B40C8F1D9F422901C112C /* Pods-SDRACTest.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
