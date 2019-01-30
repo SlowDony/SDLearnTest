@@ -1,0 +1,578 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		EFB3733D22018570002DB2C9 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = EFB3733C22018570002DB2C9 /* AppDelegate.m */; };
+		EFB3734022018570002DB2C9 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EFB3733F22018570002DB2C9 /* ViewController.m */; };
+		EFB3734322018570002DB2C9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EFB3734122018570002DB2C9 /* Main.storyboard */; };
+		EFB3734522018572002DB2C9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EFB3734422018572002DB2C9 /* Assets.xcassets */; };
+		EFB3734822018572002DB2C9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EFB3734622018572002DB2C9 /* LaunchScreen.storyboard */; };
+		EFB3734B22018572002DB2C9 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = EFB3734A22018572002DB2C9 /* main.m */; };
+		EFB3735522018572002DB2C9 /* SDRACTestTests.m in Sources */ = {isa = PBXBuildFile; fileRef = EFB3735422018572002DB2C9 /* SDRACTestTests.m */; };
+		EFB3736022018572002DB2C9 /* SDRACTestUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = EFB3735F22018572002DB2C9 /* SDRACTestUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		EFB3735122018572002DB2C9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EFB3733022018570002DB2C9 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EFB3733722018570002DB2C9;
+			remoteInfo = SDRACTest;
+		};
+		EFB3735C22018572002DB2C9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EFB3733022018570002DB2C9 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EFB3733722018570002DB2C9;
+			remoteInfo = SDRACTest;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		EFB3733822018570002DB2C9 /* SDRACTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SDRACTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		EFB3733B22018570002DB2C9 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		EFB3733C22018570002DB2C9 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		EFB3733E22018570002DB2C9 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		EFB3733F22018570002DB2C9 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		EFB3734222018570002DB2C9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		EFB3734422018572002DB2C9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		EFB3734722018572002DB2C9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		EFB3734922018572002DB2C9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EFB3734A22018572002DB2C9 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		EFB3735022018572002DB2C9 /* SDRACTestTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SDRACTestTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		EFB3735422018572002DB2C9 /* SDRACTestTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SDRACTestTests.m; sourceTree = "<group>"; };
+		EFB3735622018572002DB2C9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EFB3735B22018572002DB2C9 /* SDRACTestUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SDRACTestUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		EFB3735F22018572002DB2C9 /* SDRACTestUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SDRACTestUITests.m; sourceTree = "<group>"; };
+		EFB3736122018572002DB2C9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EFB3733522018570002DB2C9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EFB3734D22018572002DB2C9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EFB3735822018572002DB2C9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		EFB3732F22018570002DB2C9 = {
+			isa = PBXGroup;
+			children = (
+				EFB3733A22018570002DB2C9 /* SDRACTest */,
+				EFB3735322018572002DB2C9 /* SDRACTestTests */,
+				EFB3735E22018572002DB2C9 /* SDRACTestUITests */,
+				EFB3733922018570002DB2C9 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		EFB3733922018570002DB2C9 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EFB3733822018570002DB2C9 /* SDRACTest.app */,
+				EFB3735022018572002DB2C9 /* SDRACTestTests.xctest */,
+				EFB3735B22018572002DB2C9 /* SDRACTestUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EFB3733A22018570002DB2C9 /* SDRACTest */ = {
+			isa = PBXGroup;
+			children = (
+				EFB3733B22018570002DB2C9 /* AppDelegate.h */,
+				EFB3733C22018570002DB2C9 /* AppDelegate.m */,
+				EFB3733E22018570002DB2C9 /* ViewController.h */,
+				EFB3733F22018570002DB2C9 /* ViewController.m */,
+				EFB3734122018570002DB2C9 /* Main.storyboard */,
+				EFB3734422018572002DB2C9 /* Assets.xcassets */,
+				EFB3734622018572002DB2C9 /* LaunchScreen.storyboard */,
+				EFB3734922018572002DB2C9 /* Info.plist */,
+				EFB3734A22018572002DB2C9 /* main.m */,
+			);
+			path = SDRACTest;
+			sourceTree = "<group>";
+		};
+		EFB3735322018572002DB2C9 /* SDRACTestTests */ = {
+			isa = PBXGroup;
+			children = (
+				EFB3735422018572002DB2C9 /* SDRACTestTests.m */,
+				EFB3735622018572002DB2C9 /* Info.plist */,
+			);
+			path = SDRACTestTests;
+			sourceTree = "<group>";
+		};
+		EFB3735E22018572002DB2C9 /* SDRACTestUITests */ = {
+			isa = PBXGroup;
+			children = (
+				EFB3735F22018572002DB2C9 /* SDRACTestUITests.m */,
+				EFB3736122018572002DB2C9 /* Info.plist */,
+			);
+			path = SDRACTestUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EFB3733722018570002DB2C9 /* SDRACTest */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EFB3736422018572002DB2C9 /* Build configuration list for PBXNativeTarget "SDRACTest" */;
+			buildPhases = (
+				EFB3733422018570002DB2C9 /* Sources */,
+				EFB3733522018570002DB2C9 /* Frameworks */,
+				EFB3733622018570002DB2C9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SDRACTest;
+			productName = SDRACTest;
+			productReference = EFB3733822018570002DB2C9 /* SDRACTest.app */;
+			productType = "com.apple.product-type.application";
+		};
+		EFB3734F22018572002DB2C9 /* SDRACTestTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EFB3736722018572002DB2C9 /* Build configuration list for PBXNativeTarget "SDRACTestTests" */;
+			buildPhases = (
+				EFB3734C22018572002DB2C9 /* Sources */,
+				EFB3734D22018572002DB2C9 /* Frameworks */,
+				EFB3734E22018572002DB2C9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EFB3735222018572002DB2C9 /* PBXTargetDependency */,
+			);
+			name = SDRACTestTests;
+			productName = SDRACTestTests;
+			productReference = EFB3735022018572002DB2C9 /* SDRACTestTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		EFB3735A22018572002DB2C9 /* SDRACTestUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EFB3736A22018572002DB2C9 /* Build configuration list for PBXNativeTarget "SDRACTestUITests" */;
+			buildPhases = (
+				EFB3735722018572002DB2C9 /* Sources */,
+				EFB3735822018572002DB2C9 /* Frameworks */,
+				EFB3735922018572002DB2C9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EFB3735D22018572002DB2C9 /* PBXTargetDependency */,
+			);
+			name = SDRACTestUITests;
+			productName = SDRACTestUITests;
+			productReference = EFB3735B22018572002DB2C9 /* SDRACTestUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EFB3733022018570002DB2C9 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1010;
+				ORGANIZATIONNAME = slowdony;
+				TargetAttributes = {
+					EFB3733722018570002DB2C9 = {
+						CreatedOnToolsVersion = 10.1;
+					};
+					EFB3734F22018572002DB2C9 = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = EFB3733722018570002DB2C9;
+					};
+					EFB3735A22018572002DB2C9 = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = EFB3733722018570002DB2C9;
+					};
+				};
+			};
+			buildConfigurationList = EFB3733322018570002DB2C9 /* Build configuration list for PBXProject "SDRACTest" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = EFB3732F22018570002DB2C9;
+			productRefGroup = EFB3733922018570002DB2C9 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EFB3733722018570002DB2C9 /* SDRACTest */,
+				EFB3734F22018572002DB2C9 /* SDRACTestTests */,
+				EFB3735A22018572002DB2C9 /* SDRACTestUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EFB3733622018570002DB2C9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EFB3734822018572002DB2C9 /* LaunchScreen.storyboard in Resources */,
+				EFB3734522018572002DB2C9 /* Assets.xcassets in Resources */,
+				EFB3734322018570002DB2C9 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EFB3734E22018572002DB2C9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EFB3735922018572002DB2C9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EFB3733422018570002DB2C9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EFB3734022018570002DB2C9 /* ViewController.m in Sources */,
+				EFB3734B22018572002DB2C9 /* main.m in Sources */,
+				EFB3733D22018570002DB2C9 /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EFB3734C22018572002DB2C9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EFB3735522018572002DB2C9 /* SDRACTestTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EFB3735722018572002DB2C9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EFB3736022018572002DB2C9 /* SDRACTestUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		EFB3735222018572002DB2C9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EFB3733722018570002DB2C9 /* SDRACTest */;
+			targetProxy = EFB3735122018572002DB2C9 /* PBXContainerItemProxy */;
+		};
+		EFB3735D22018572002DB2C9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EFB3733722018570002DB2C9 /* SDRACTest */;
+			targetProxy = EFB3735C22018572002DB2C9 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		EFB3734122018570002DB2C9 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EFB3734222018570002DB2C9 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		EFB3734622018572002DB2C9 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EFB3734722018572002DB2C9 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		EFB3736222018572002DB2C9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		EFB3736322018572002DB2C9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EFB3736522018572002DB2C9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = SDRACTest/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = slowdony.SDRACTest;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		EFB3736622018572002DB2C9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = SDRACTest/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = slowdony.SDRACTest;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		EFB3736822018572002DB2C9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = SDRACTestTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = slowdony.SDRACTestTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SDRACTest.app/SDRACTest";
+			};
+			name = Debug;
+		};
+		EFB3736922018572002DB2C9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = SDRACTestTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = slowdony.SDRACTestTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SDRACTest.app/SDRACTest";
+			};
+			name = Release;
+		};
+		EFB3736B22018572002DB2C9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = SDRACTestUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = slowdony.SDRACTestUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = SDRACTest;
+			};
+			name = Debug;
+		};
+		EFB3736C22018572002DB2C9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = SDRACTestUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = slowdony.SDRACTestUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = SDRACTest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EFB3733322018570002DB2C9 /* Build configuration list for PBXProject "SDRACTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EFB3736222018572002DB2C9 /* Debug */,
+				EFB3736322018572002DB2C9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EFB3736422018572002DB2C9 /* Build configuration list for PBXNativeTarget "SDRACTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EFB3736522018572002DB2C9 /* Debug */,
+				EFB3736622018572002DB2C9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EFB3736722018572002DB2C9 /* Build configuration list for PBXNativeTarget "SDRACTestTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EFB3736822018572002DB2C9 /* Debug */,
+				EFB3736922018572002DB2C9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EFB3736A22018572002DB2C9 /* Build configuration list for PBXNativeTarget "SDRACTestUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EFB3736B22018572002DB2C9 /* Debug */,
+				EFB3736C22018572002DB2C9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = EFB3733022018570002DB2C9 /* Project object */;
+}
