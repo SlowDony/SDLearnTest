@@ -1,0 +1,14 @@
+//
+//  CommonRelease.xcconfig
+//  PhuketTour
+//
+//  Created by slowdony on 2019/1/28.
+//  Copyright © 2019年 slowdony. All rights reserved.
+//
+
+// Configuration settings file format documentation can be found at:
+// https://help.apple.com/xcode/#/dev745c5c974
+
+#include "Common.xcconfig"
+BaseURL = @"https:/$()app.com/api"
+IS_PROFUCATION = YES;

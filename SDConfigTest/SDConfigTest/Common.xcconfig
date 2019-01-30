@@ -1,0 +1,18 @@
+//
+//  Common.xcconfig
+//  PhuketTour
+//
+//  Created by slowdony on 2019/1/28.
+//  Copyright © 2019年 slowdony. All rights reserved.
+//
+
+// Configuration settings file format documentation can be found at:
+// https://help.apple.com/xcode/#/dev745c5c974
+
+//Common.xconfig中第一个键的配置必须有 ：GCC_PREPROCESSOR_DEFINITIONS = $(inherited)，没有Xcode会报错
+//
+//自定义键时的语法：宏名='$(key)', 在代码或其他地方使用宏名来引用，'$(key)'：通过key来指定每个模式下的对应的自定义键的名字，通常将宏的名字和key的名字保持一致，注意 等号前后一定不能有空格
+//
+//特别注意：``Common.xconfig中第一个key是GCC_PREPROCESSOR_DEFINITIONS = $(inherited) 后面跟自定义的key，注意在第一个key后面跟上自己定义的key的时候一定不要回车换行，敲一个空格，然后在同一行后面追加就行了，换行会编译错误，切记！
+
+GCC_PREPROCESSOR_DEFINITIONS = $(inherited) BaseURL='$(BaseURL)' IS_PROFUCATION='$(IS_PROFUCATION)'
