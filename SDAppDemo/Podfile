@@ -1,0 +1,4 @@
+target 'SDAppDemo' do
+pod 'AFNetworking'
+end
+
