@@ -16,6 +16,11 @@
 		EFB3734B22018572002DB2C9 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = EFB3734A22018572002DB2C9 /* main.m */; };
 		EFB3735522018572002DB2C9 /* SDRACTestTests.m in Sources */ = {isa = PBXBuildFile; fileRef = EFB3735422018572002DB2C9 /* SDRACTestTests.m */; };
 		EFB3736022018572002DB2C9 /* SDRACTestUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = EFB3735F22018572002DB2C9 /* SDRACTestUITests.m */; };
+		EFCC2A3F221D848500B46A7A /* SDView.m in Sources */ = {isa = PBXBuildFile; fileRef = EFCC2A3E221D848500B46A7A /* SDView.m */; };
+		EFEDE012221F94920068114E /* SDLoginViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = EFEDE011221F94920068114E /* SDLoginViewModel.m */; };
+		EFEDE015221F94AD0068114E /* SDLoginView.m in Sources */ = {isa = PBXBuildFile; fileRef = EFEDE014221F94AD0068114E /* SDLoginView.m */; };
+		EFEDE018221F94BB0068114E /* SDLoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EFEDE017221F94BB0068114E /* SDLoginViewController.m */; };
+		EFEDE01B221F94E60068114E /* SDLoginModel.m in Sources */ = {isa = PBXBuildFile; fileRef = EFEDE01A221F94E60068114E /* SDLoginModel.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -54,6 +59,16 @@
 		EFB3735B22018572002DB2C9 /* SDRACTestUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SDRACTestUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		EFB3735F22018572002DB2C9 /* SDRACTestUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SDRACTestUITests.m; sourceTree = "<group>"; };
 		EFB3736122018572002DB2C9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EFCC2A3D221D848500B46A7A /* SDView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SDView.h; sourceTree = "<group>"; };
+		EFCC2A3E221D848500B46A7A /* SDView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SDView.m; sourceTree = "<group>"; };
+		EFEDE010221F94920068114E /* SDLoginViewModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SDLoginViewModel.h; sourceTree = "<group>"; };
+		EFEDE011221F94920068114E /* SDLoginViewModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SDLoginViewModel.m; sourceTree = "<group>"; };
+		EFEDE013221F94AD0068114E /* SDLoginView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SDLoginView.h; sourceTree = "<group>"; };
+		EFEDE014221F94AD0068114E /* SDLoginView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SDLoginView.m; sourceTree = "<group>"; };
+		EFEDE016221F94BB0068114E /* SDLoginViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SDLoginViewController.h; sourceTree = "<group>"; };
+		EFEDE017221F94BB0068114E /* SDLoginViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SDLoginViewController.m; sourceTree = "<group>"; };
+		EFEDE019221F94E60068114E /* SDLoginModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SDLoginModel.h; sourceTree = "<group>"; };
+		EFEDE01A221F94E60068114E /* SDLoginModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SDLoginModel.m; sourceTree = "<group>"; };
 		F91362945FDE1EB09EF46A7F /* Pods-SDRACTest.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SDRACTest.debug.xcconfig"; path = "Target Support Files/Pods-SDRACTest/Pods-SDRACTest.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -97,7 +112,6 @@
 				F91362945FDE1EB09EF46A7F /* Pods-SDRACTest.debug.xcconfig */,
 				122B40C8F1D9F422901C112C /* Pods-SDRACTest.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -130,6 +144,16 @@
 				EFB3733C22018570002DB2C9 /* AppDelegate.m */,
 				EFB3733E22018570002DB2C9 /* ViewController.h */,
 				EFB3733F22018570002DB2C9 /* ViewController.m */,
+				EFCC2A3D221D848500B46A7A /* SDView.h */,
+				EFCC2A3E221D848500B46A7A /* SDView.m */,
+				EFEDE019221F94E60068114E /* SDLoginModel.h */,
+				EFEDE01A221F94E60068114E /* SDLoginModel.m */,
+				EFEDE013221F94AD0068114E /* SDLoginView.h */,
+				EFEDE014221F94AD0068114E /* SDLoginView.m */,
+				EFEDE010221F94920068114E /* SDLoginViewModel.h */,
+				EFEDE011221F94920068114E /* SDLoginViewModel.m */,
+				EFEDE016221F94BB0068114E /* SDLoginViewController.h */,
+				EFEDE017221F94BB0068114E /* SDLoginViewController.m */,
 				EFB3734122018570002DB2C9 /* Main.storyboard */,
 				EFB3734422018572002DB2C9 /* Assets.xcassets */,
 				EFB3734622018572002DB2C9 /* LaunchScreen.storyboard */,
@@ -313,9 +337,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EFEDE012221F94920068114E /* SDLoginViewModel.m in Sources */,
 				EFB3734022018570002DB2C9 /* ViewController.m in Sources */,
+				EFEDE01B221F94E60068114E /* SDLoginModel.m in Sources */,
+				EFCC2A3F221D848500B46A7A /* SDView.m in Sources */,
 				EFB3734B22018572002DB2C9 /* main.m in Sources */,
 				EFB3733D22018570002DB2C9 /* AppDelegate.m in Sources */,
+				EFEDE018221F94BB0068114E /* SDLoginViewController.m in Sources */,
+				EFEDE015221F94AD0068114E /* SDLoginView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
