@@ -16,6 +16,8 @@
 		EF52932E22114C4700186A4C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = EF52932D22114C4700186A4C /* main.m */; };
 		EF52933822114C4700186A4C /* SDAppDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = EF52933722114C4700186A4C /* SDAppDemoTests.m */; };
 		EF52934322114C4700186A4C /* SDAppDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = EF52934222114C4700186A4C /* SDAppDemoUITests.m */; };
+		EF84500D2249CCA400F622CA /* OneViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EF84500C2249CCA400F622CA /* OneViewController.m */; };
+		EF8450102249D28700F622CA /* TwoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EF84500F2249D28700F622CA /* TwoViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -54,6 +56,10 @@
 		EF52933E22114C4700186A4C /* SDAppDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SDAppDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		EF52934222114C4700186A4C /* SDAppDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SDAppDemoUITests.m; sourceTree = "<group>"; };
 		EF52934422114C4700186A4C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EF84500B2249CCA400F622CA /* OneViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = OneViewController.h; sourceTree = "<group>"; };
+		EF84500C2249CCA400F622CA /* OneViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = OneViewController.m; sourceTree = "<group>"; };
+		EF84500E2249D28700F622CA /* TwoViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TwoViewController.h; sourceTree = "<group>"; };
+		EF84500F2249D28700F622CA /* TwoViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TwoViewController.m; sourceTree = "<group>"; };
 		F096428BC3A16CA4D25C0E3D /* Pods-SDAppDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SDAppDemo.release.xcconfig"; path = "Target Support Files/Pods-SDAppDemo/Pods-SDAppDemo.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -97,7 +103,6 @@
 				E3381CBDAAAF1E288D8EF6D6 /* Pods-SDAppDemo.debug.xcconfig */,
 				F096428BC3A16CA4D25C0E3D /* Pods-SDAppDemo.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -130,6 +135,10 @@
 				EF52931F22114C4500186A4C /* AppDelegate.m */,
 				EF52932122114C4500186A4C /* ViewController.h */,
 				EF52932222114C4500186A4C /* ViewController.m */,
+				EF84500B2249CCA400F622CA /* OneViewController.h */,
+				EF84500C2249CCA400F622CA /* OneViewController.m */,
+				EF84500E2249D28700F622CA /* TwoViewController.h */,
+				EF84500F2249D28700F622CA /* TwoViewController.m */,
 				EF52932422114C4500186A4C /* Main.storyboard */,
 				EF52932722114C4700186A4C /* Assets.xcassets */,
 				EF52932922114C4700186A4C /* LaunchScreen.storyboard */,
@@ -316,6 +325,8 @@
 				EF52932322114C4500186A4C /* ViewController.m in Sources */,
 				EF52932E22114C4700186A4C /* main.m in Sources */,
 				EF52932022114C4500186A4C /* AppDelegate.m in Sources */,
+				EF8450102249D28700F622CA /* TwoViewController.m in Sources */,
+				EF84500D2249CCA400F622CA /* OneViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
