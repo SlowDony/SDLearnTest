@@ -1,0 +1,610 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		EF225D54224F31A400695796 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = EF225D53224F31A400695796 /* AppDelegate.m */; };
+		EF225D57224F31A400695796 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EF225D56224F31A400695796 /* ViewController.m */; };
+		EF225D5A224F31A400695796 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EF225D58224F31A400695796 /* Main.storyboard */; };
+		EF225D5C224F31A600695796 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EF225D5B224F31A600695796 /* Assets.xcassets */; };
+		EF225D5F224F31A600695796 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EF225D5D224F31A600695796 /* LaunchScreen.storyboard */; };
+		EF225D62224F31A600695796 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = EF225D61224F31A600695796 /* main.m */; };
+		EF225D6C224F31A600695796 /* SDMultithreading_____Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = EF225D6B224F31A600695796 /* SDMultithreading_____Tests.m */; };
+		EF225D77224F31A600695796 /* SDMultithreading_____UITests.m in Sources */ = {isa = PBXBuildFile; fileRef = EF225D76224F31A600695796 /* SDMultithreading_____UITests.m */; };
+		EF225D8722508FE800695796 /* SDBaseDemo.m in Sources */ = {isa = PBXBuildFile; fileRef = EF225D8622508FE800695796 /* SDBaseDemo.m */; };
+		EF225D902250972E00695796 /* SDOSSpinLock.m in Sources */ = {isa = PBXBuildFile; fileRef = EF225D8F2250972E00695796 /* SDOSSpinLock.m */; };
+		EF225D932250BAAA00695796 /* SDOSUnfairLock.m in Sources */ = {isa = PBXBuildFile; fileRef = EF225D922250BAAA00695796 /* SDOSUnfairLock.m */; };
+		EF225D962250BEE000695796 /* SDMutex.m in Sources */ = {isa = PBXBuildFile; fileRef = EF225D952250BEE000695796 /* SDMutex.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		EF225D68224F31A600695796 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EF225D47224F31A400695796 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EF225D4E224F31A400695796;
+			remoteInfo = "SDMultithreading(多线程)";
+		};
+		EF225D73224F31A600695796 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EF225D47224F31A400695796 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EF225D4E224F31A400695796;
+			remoteInfo = "SDMultithreading(多线程)";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		EF225D4F224F31A400695796 /* SDMultithreading(多线程).app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "SDMultithreading(多线程).app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		EF225D52224F31A400695796 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		EF225D53224F31A400695796 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		EF225D55224F31A400695796 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		EF225D56224F31A400695796 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		EF225D59224F31A400695796 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		EF225D5B224F31A600695796 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		EF225D5E224F31A600695796 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		EF225D60224F31A600695796 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EF225D61224F31A600695796 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		EF225D67224F31A600695796 /* SDMultithreading(多线程)Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "SDMultithreading(多线程)Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		EF225D6B224F31A600695796 /* SDMultithreading_____Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "SDMultithreading_____Tests.m"; sourceTree = "<group>"; };
+		EF225D6D224F31A600695796 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EF225D72224F31A600695796 /* SDMultithreading(多线程)UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "SDMultithreading(多线程)UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		EF225D76224F31A600695796 /* SDMultithreading_____UITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "SDMultithreading_____UITests.m"; sourceTree = "<group>"; };
+		EF225D78224F31A600695796 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EF225D8522508FE800695796 /* SDBaseDemo.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SDBaseDemo.h; sourceTree = "<group>"; };
+		EF225D8622508FE800695796 /* SDBaseDemo.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SDBaseDemo.m; sourceTree = "<group>"; };
+		EF225D8E2250972E00695796 /* SDOSSpinLock.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SDOSSpinLock.h; sourceTree = "<group>"; };
+		EF225D8F2250972E00695796 /* SDOSSpinLock.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SDOSSpinLock.m; sourceTree = "<group>"; };
+		EF225D912250BAAA00695796 /* SDOSUnfairLock.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SDOSUnfairLock.h; sourceTree = "<group>"; };
+		EF225D922250BAAA00695796 /* SDOSUnfairLock.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SDOSUnfairLock.m; sourceTree = "<group>"; };
+		EF225D942250BEE000695796 /* SDMutex.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SDMutex.h; sourceTree = "<group>"; };
+		EF225D952250BEE000695796 /* SDMutex.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SDMutex.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EF225D4C224F31A400695796 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EF225D64224F31A600695796 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EF225D6F224F31A600695796 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		EF225D46224F31A400695796 = {
+			isa = PBXGroup;
+			children = (
+				EF225D51224F31A400695796 /* SDMultithreading(多线程) */,
+				EF225D6A224F31A600695796 /* SDMultithreading(多线程)Tests */,
+				EF225D75224F31A600695796 /* SDMultithreading(多线程)UITests */,
+				EF225D50224F31A400695796 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		EF225D50224F31A400695796 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EF225D4F224F31A400695796 /* SDMultithreading(多线程).app */,
+				EF225D67224F31A600695796 /* SDMultithreading(多线程)Tests.xctest */,
+				EF225D72224F31A600695796 /* SDMultithreading(多线程)UITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EF225D51224F31A400695796 /* SDMultithreading(多线程) */ = {
+			isa = PBXGroup;
+			children = (
+				EF225D52224F31A400695796 /* AppDelegate.h */,
+				EF225D53224F31A400695796 /* AppDelegate.m */,
+				EF225D55224F31A400695796 /* ViewController.h */,
+				EF225D56224F31A400695796 /* ViewController.m */,
+				EF225D8422508FBF00695796 /* lock(线程锁) */,
+				EF225D58224F31A400695796 /* Main.storyboard */,
+				EF225D5B224F31A600695796 /* Assets.xcassets */,
+				EF225D5D224F31A600695796 /* LaunchScreen.storyboard */,
+				EF225D60224F31A600695796 /* Info.plist */,
+				EF225D61224F31A600695796 /* main.m */,
+			);
+			path = "SDMultithreading(多线程)";
+			sourceTree = "<group>";
+		};
+		EF225D6A224F31A600695796 /* SDMultithreading(多线程)Tests */ = {
+			isa = PBXGroup;
+			children = (
+				EF225D6B224F31A600695796 /* SDMultithreading_____Tests.m */,
+				EF225D6D224F31A600695796 /* Info.plist */,
+			);
+			path = "SDMultithreading(多线程)Tests";
+			sourceTree = "<group>";
+		};
+		EF225D75224F31A600695796 /* SDMultithreading(多线程)UITests */ = {
+			isa = PBXGroup;
+			children = (
+				EF225D76224F31A600695796 /* SDMultithreading_____UITests.m */,
+				EF225D78224F31A600695796 /* Info.plist */,
+			);
+			path = "SDMultithreading(多线程)UITests";
+			sourceTree = "<group>";
+		};
+		EF225D8422508FBF00695796 /* lock(线程锁) */ = {
+			isa = PBXGroup;
+			children = (
+				EF225D8522508FE800695796 /* SDBaseDemo.h */,
+				EF225D8622508FE800695796 /* SDBaseDemo.m */,
+				EF225D8E2250972E00695796 /* SDOSSpinLock.h */,
+				EF225D8F2250972E00695796 /* SDOSSpinLock.m */,
+				EF225D912250BAAA00695796 /* SDOSUnfairLock.h */,
+				EF225D922250BAAA00695796 /* SDOSUnfairLock.m */,
+				EF225D942250BEE000695796 /* SDMutex.h */,
+				EF225D952250BEE000695796 /* SDMutex.m */,
+			);
+			path = "lock(线程锁)";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EF225D4E224F31A400695796 /* SDMultithreading(多线程) */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EF225D7B224F31A600695796 /* Build configuration list for PBXNativeTarget "SDMultithreading(多线程)" */;
+			buildPhases = (
+				EF225D4B224F31A400695796 /* Sources */,
+				EF225D4C224F31A400695796 /* Frameworks */,
+				EF225D4D224F31A400695796 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "SDMultithreading(多线程)";
+			productName = "SDMultithreading(多线程)";
+			productReference = EF225D4F224F31A400695796 /* SDMultithreading(多线程).app */;
+			productType = "com.apple.product-type.application";
+		};
+		EF225D66224F31A600695796 /* SDMultithreading(多线程)Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EF225D7E224F31A600695796 /* Build configuration list for PBXNativeTarget "SDMultithreading(多线程)Tests" */;
+			buildPhases = (
+				EF225D63224F31A600695796 /* Sources */,
+				EF225D64224F31A600695796 /* Frameworks */,
+				EF225D65224F31A600695796 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EF225D69224F31A600695796 /* PBXTargetDependency */,
+			);
+			name = "SDMultithreading(多线程)Tests";
+			productName = "SDMultithreading(多线程)Tests";
+			productReference = EF225D67224F31A600695796 /* SDMultithreading(多线程)Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		EF225D71224F31A600695796 /* SDMultithreading(多线程)UITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EF225D81224F31A600695796 /* Build configuration list for PBXNativeTarget "SDMultithreading(多线程)UITests" */;
+			buildPhases = (
+				EF225D6E224F31A600695796 /* Sources */,
+				EF225D6F224F31A600695796 /* Frameworks */,
+				EF225D70224F31A600695796 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EF225D74224F31A600695796 /* PBXTargetDependency */,
+			);
+			name = "SDMultithreading(多线程)UITests";
+			productName = "SDMultithreading(多线程)UITests";
+			productReference = EF225D72224F31A600695796 /* SDMultithreading(多线程)UITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EF225D47224F31A400695796 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1010;
+				ORGANIZATIONNAME = slowdony;
+				TargetAttributes = {
+					EF225D4E224F31A400695796 = {
+						CreatedOnToolsVersion = 10.1;
+					};
+					EF225D66224F31A600695796 = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = EF225D4E224F31A400695796;
+					};
+					EF225D71224F31A600695796 = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = EF225D4E224F31A400695796;
+					};
+				};
+			};
+			buildConfigurationList = EF225D4A224F31A400695796 /* Build configuration list for PBXProject "SDMultithreading(多线程)" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = EF225D46224F31A400695796;
+			productRefGroup = EF225D50224F31A400695796 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EF225D4E224F31A400695796 /* SDMultithreading(多线程) */,
+				EF225D66224F31A600695796 /* SDMultithreading(多线程)Tests */,
+				EF225D71224F31A600695796 /* SDMultithreading(多线程)UITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EF225D4D224F31A400695796 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EF225D5F224F31A600695796 /* LaunchScreen.storyboard in Resources */,
+				EF225D5C224F31A600695796 /* Assets.xcassets in Resources */,
+				EF225D5A224F31A400695796 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EF225D65224F31A600695796 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EF225D70224F31A600695796 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EF225D4B224F31A400695796 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EF225D962250BEE000695796 /* SDMutex.m in Sources */,
+				EF225D902250972E00695796 /* SDOSSpinLock.m in Sources */,
+				EF225D57224F31A400695796 /* ViewController.m in Sources */,
+				EF225D932250BAAA00695796 /* SDOSUnfairLock.m in Sources */,
+				EF225D62224F31A600695796 /* main.m in Sources */,
+				EF225D8722508FE800695796 /* SDBaseDemo.m in Sources */,
+				EF225D54224F31A400695796 /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EF225D63224F31A600695796 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EF225D6C224F31A600695796 /* SDMultithreading_____Tests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EF225D6E224F31A600695796 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EF225D77224F31A600695796 /* SDMultithreading_____UITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		EF225D69224F31A600695796 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EF225D4E224F31A400695796 /* SDMultithreading(多线程) */;
+			targetProxy = EF225D68224F31A600695796 /* PBXContainerItemProxy */;
+		};
+		EF225D74224F31A600695796 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EF225D4E224F31A400695796 /* SDMultithreading(多线程) */;
+			targetProxy = EF225D73224F31A600695796 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		EF225D58224F31A400695796 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EF225D59224F31A400695796 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		EF225D5D224F31A600695796 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EF225D5E224F31A600695796 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		EF225D79224F31A600695796 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		EF225D7A224F31A600695796 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EF225D7C224F31A600695796 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "SDMultithreading(多线程)/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "slowdony.SDMultithreading-----";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		EF225D7D224F31A600695796 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "SDMultithreading(多线程)/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "slowdony.SDMultithreading-----";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		EF225D7F224F31A600695796 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "SDMultithreading(多线程)Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "slowdony.SDMultithreading-----Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SDMultithreading(多线程).app/SDMultithreading(多线程)";
+			};
+			name = Debug;
+		};
+		EF225D80224F31A600695796 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "SDMultithreading(多线程)Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "slowdony.SDMultithreading-----Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SDMultithreading(多线程).app/SDMultithreading(多线程)";
+			};
+			name = Release;
+		};
+		EF225D82224F31A600695796 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "SDMultithreading(多线程)UITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "slowdony.SDMultithreading-----UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "SDMultithreading(多线程)";
+			};
+			name = Debug;
+		};
+		EF225D83224F31A600695796 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "SDMultithreading(多线程)UITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "slowdony.SDMultithreading-----UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "SDMultithreading(多线程)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EF225D4A224F31A400695796 /* Build configuration list for PBXProject "SDMultithreading(多线程)" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EF225D79224F31A600695796 /* Debug */,
+				EF225D7A224F31A600695796 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EF225D7B224F31A600695796 /* Build configuration list for PBXNativeTarget "SDMultithreading(多线程)" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EF225D7C224F31A600695796 /* Debug */,
+				EF225D7D224F31A600695796 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EF225D7E224F31A600695796 /* Build configuration list for PBXNativeTarget "SDMultithreading(多线程)Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EF225D7F224F31A600695796 /* Debug */,
+				EF225D80224F31A600695796 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EF225D81224F31A600695796 /* Build configuration list for PBXNativeTarget "SDMultithreading(多线程)UITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EF225D82224F31A600695796 /* Debug */,
+				EF225D83224F31A600695796 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = EF225D47224F31A400695796 /* Project object */;
+}
