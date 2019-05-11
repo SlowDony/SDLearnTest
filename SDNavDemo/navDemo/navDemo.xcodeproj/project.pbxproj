@@ -1,0 +1,657 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		EF2418331FD825D800EAAA9B /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = EF2418321FD825D800EAAA9B /* AppDelegate.m */; };
+		EF2418361FD825D800EAAA9B /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EF2418351FD825D800EAAA9B /* ViewController.m */; };
+		EF2418391FD825D800EAAA9B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EF2418371FD825D800EAAA9B /* Main.storyboard */; };
+		EF24183B1FD825D800EAAA9B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EF24183A1FD825D800EAAA9B /* Assets.xcassets */; };
+		EF24183E1FD825D800EAAA9B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EF24183C1FD825D800EAAA9B /* LaunchScreen.storyboard */; };
+		EF2418411FD825D800EAAA9B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = EF2418401FD825D800EAAA9B /* main.m */; };
+		EF24184B1FD825D800EAAA9B /* navDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = EF24184A1FD825D800EAAA9B /* navDemoTests.m */; };
+		EF2418561FD825D800EAAA9B /* navDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = EF2418551FD825D800EAAA9B /* navDemoUITests.m */; };
+		EF24186E1FD83BB300EAAA9B /* MyNavgationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EF24186D1FD83BB300EAAA9B /* MyNavgationViewController.m */; };
+		EF70BD6A20E1DC260090FC3F /* InteractionTransitionAnimation.m in Sources */ = {isa = PBXBuildFile; fileRef = EF70BD6220E1DC260090FC3F /* InteractionTransitionAnimation.m */; };
+		EF70BD6B20E1DC260090FC3F /* InteractiveTrasitionAnimation.m in Sources */ = {isa = PBXBuildFile; fileRef = EF70BD6420E1DC260090FC3F /* InteractiveTrasitionAnimation.m */; };
+		EF70BD6C20E1DC260090FC3F /* PopTransition.m in Sources */ = {isa = PBXBuildFile; fileRef = EF70BD6720E1DC260090FC3F /* PopTransition.m */; };
+		EF70BD6D20E1DC260090FC3F /* PushTransition.m in Sources */ = {isa = PBXBuildFile; fileRef = EF70BD6920E1DC260090FC3F /* PushTransition.m */; };
+		EF928C991FED211F00CAA0DC /* BaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EF928C981FED211F00CAA0DC /* BaseViewController.m */; };
+		EF928C9C1FED21E700CAA0DC /* SDNormalBaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EF928C9B1FED21E700CAA0DC /* SDNormalBaseViewController.m */; };
+		EF928C9F1FED221500CAA0DC /* SDHiddenViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EF928C9E1FED221500CAA0DC /* SDHiddenViewController.m */; };
+		EF928CA21FED24D800CAA0DC /* HiddenOneViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EF928CA11FED24D800CAA0DC /* HiddenOneViewController.m */; };
+		EF928CA51FED344800CAA0DC /* HiddenTwoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EF928CA41FED344800CAA0DC /* HiddenTwoViewController.m */; };
+		EF928CA81FED345F00CAA0DC /* HiddenThreeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EF928CA71FED345F00CAA0DC /* HiddenThreeViewController.m */; };
+		EF928CAB1FED347A00CAA0DC /* NormalOneViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EF928CAA1FED347A00CAA0DC /* NormalOneViewController.m */; };
+		EF928CAE1FED348600CAA0DC /* NormalTwoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EF928CAD1FED348600CAA0DC /* NormalTwoViewController.m */; };
+		EF928CB11FED349500CAA0DC /* NormalThreeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EF928CB01FED349500CAA0DC /* NormalThreeViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		EF2418471FD825D800EAAA9B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EF2418261FD825D800EAAA9B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EF24182D1FD825D800EAAA9B;
+			remoteInfo = navDemo;
+		};
+		EF2418521FD825D800EAAA9B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EF2418261FD825D800EAAA9B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EF24182D1FD825D800EAAA9B;
+			remoteInfo = navDemo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		EF24182E1FD825D800EAAA9B /* navDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = navDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		EF2418311FD825D800EAAA9B /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		EF2418321FD825D800EAAA9B /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		EF2418341FD825D800EAAA9B /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		EF2418351FD825D800EAAA9B /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		EF2418381FD825D800EAAA9B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		EF24183A1FD825D800EAAA9B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		EF24183D1FD825D800EAAA9B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		EF24183F1FD825D800EAAA9B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EF2418401FD825D800EAAA9B /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		EF2418461FD825D800EAAA9B /* navDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = navDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		EF24184A1FD825D800EAAA9B /* navDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = navDemoTests.m; sourceTree = "<group>"; };
+		EF24184C1FD825D800EAAA9B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EF2418511FD825D800EAAA9B /* navDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = navDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		EF2418551FD825D800EAAA9B /* navDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = navDemoUITests.m; sourceTree = "<group>"; };
+		EF2418571FD825D800EAAA9B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EF24186C1FD83BB300EAAA9B /* MyNavgationViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MyNavgationViewController.h; sourceTree = "<group>"; };
+		EF24186D1FD83BB300EAAA9B /* MyNavgationViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MyNavgationViewController.m; sourceTree = "<group>"; };
+		EF70BD6120E1DC260090FC3F /* InteractionTransitionAnimation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = InteractionTransitionAnimation.h; sourceTree = "<group>"; };
+		EF70BD6220E1DC260090FC3F /* InteractionTransitionAnimation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = InteractionTransitionAnimation.m; sourceTree = "<group>"; };
+		EF70BD6320E1DC260090FC3F /* InteractiveTrasitionAnimation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = InteractiveTrasitionAnimation.h; sourceTree = "<group>"; };
+		EF70BD6420E1DC260090FC3F /* InteractiveTrasitionAnimation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = InteractiveTrasitionAnimation.m; sourceTree = "<group>"; };
+		EF70BD6520E1DC260090FC3F /* JC_NacAnimation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JC_NacAnimation.h; sourceTree = "<group>"; };
+		EF70BD6620E1DC260090FC3F /* PopTransition.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PopTransition.h; sourceTree = "<group>"; };
+		EF70BD6720E1DC260090FC3F /* PopTransition.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PopTransition.m; sourceTree = "<group>"; };
+		EF70BD6820E1DC260090FC3F /* PushTransition.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PushTransition.h; sourceTree = "<group>"; };
+		EF70BD6920E1DC260090FC3F /* PushTransition.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PushTransition.m; sourceTree = "<group>"; };
+		EF928C971FED211F00CAA0DC /* BaseViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BaseViewController.h; sourceTree = "<group>"; };
+		EF928C981FED211F00CAA0DC /* BaseViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BaseViewController.m; sourceTree = "<group>"; };
+		EF928C9A1FED21E700CAA0DC /* SDNormalBaseViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SDNormalBaseViewController.h; sourceTree = "<group>"; };
+		EF928C9B1FED21E700CAA0DC /* SDNormalBaseViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SDNormalBaseViewController.m; sourceTree = "<group>"; };
+		EF928C9D1FED221500CAA0DC /* SDHiddenViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SDHiddenViewController.h; sourceTree = "<group>"; };
+		EF928C9E1FED221500CAA0DC /* SDHiddenViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SDHiddenViewController.m; sourceTree = "<group>"; };
+		EF928CA01FED24D800CAA0DC /* HiddenOneViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HiddenOneViewController.h; sourceTree = "<group>"; };
+		EF928CA11FED24D800CAA0DC /* HiddenOneViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HiddenOneViewController.m; sourceTree = "<group>"; };
+		EF928CA31FED344800CAA0DC /* HiddenTwoViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HiddenTwoViewController.h; sourceTree = "<group>"; };
+		EF928CA41FED344800CAA0DC /* HiddenTwoViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HiddenTwoViewController.m; sourceTree = "<group>"; };
+		EF928CA61FED345F00CAA0DC /* HiddenThreeViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HiddenThreeViewController.h; sourceTree = "<group>"; };
+		EF928CA71FED345F00CAA0DC /* HiddenThreeViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HiddenThreeViewController.m; sourceTree = "<group>"; };
+		EF928CA91FED347A00CAA0DC /* NormalOneViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NormalOneViewController.h; sourceTree = "<group>"; };
+		EF928CAA1FED347A00CAA0DC /* NormalOneViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NormalOneViewController.m; sourceTree = "<group>"; };
+		EF928CAC1FED348600CAA0DC /* NormalTwoViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NormalTwoViewController.h; sourceTree = "<group>"; };
+		EF928CAD1FED348600CAA0DC /* NormalTwoViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NormalTwoViewController.m; sourceTree = "<group>"; };
+		EF928CAF1FED349500CAA0DC /* NormalThreeViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NormalThreeViewController.h; sourceTree = "<group>"; };
+		EF928CB01FED349500CAA0DC /* NormalThreeViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NormalThreeViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EF24182B1FD825D800EAAA9B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EF2418431FD825D800EAAA9B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EF24184E1FD825D800EAAA9B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		EF2418251FD825D800EAAA9B = {
+			isa = PBXGroup;
+			children = (
+				EF2418301FD825D800EAAA9B /* navDemo */,
+				EF2418491FD825D800EAAA9B /* navDemoTests */,
+				EF2418541FD825D800EAAA9B /* navDemoUITests */,
+				EF24182F1FD825D800EAAA9B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		EF24182F1FD825D800EAAA9B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EF24182E1FD825D800EAAA9B /* navDemo.app */,
+				EF2418461FD825D800EAAA9B /* navDemoTests.xctest */,
+				EF2418511FD825D800EAAA9B /* navDemoUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EF2418301FD825D800EAAA9B /* navDemo */ = {
+			isa = PBXGroup;
+			children = (
+				EF70BD5F20E1DC160090FC3F /* NavTransition */,
+				EF2418311FD825D800EAAA9B /* AppDelegate.h */,
+				EF2418321FD825D800EAAA9B /* AppDelegate.m */,
+				EF2418341FD825D800EAAA9B /* ViewController.h */,
+				EF2418351FD825D800EAAA9B /* ViewController.m */,
+				EF24186C1FD83BB300EAAA9B /* MyNavgationViewController.h */,
+				EF24186D1FD83BB300EAAA9B /* MyNavgationViewController.m */,
+				EF928C971FED211F00CAA0DC /* BaseViewController.h */,
+				EF928C981FED211F00CAA0DC /* BaseViewController.m */,
+				EF928C9A1FED21E700CAA0DC /* SDNormalBaseViewController.h */,
+				EF928C9B1FED21E700CAA0DC /* SDNormalBaseViewController.m */,
+				EF928C9D1FED221500CAA0DC /* SDHiddenViewController.h */,
+				EF928C9E1FED221500CAA0DC /* SDHiddenViewController.m */,
+				EF928CA01FED24D800CAA0DC /* HiddenOneViewController.h */,
+				EF928CA11FED24D800CAA0DC /* HiddenOneViewController.m */,
+				EF928CA31FED344800CAA0DC /* HiddenTwoViewController.h */,
+				EF928CA41FED344800CAA0DC /* HiddenTwoViewController.m */,
+				EF928CA61FED345F00CAA0DC /* HiddenThreeViewController.h */,
+				EF928CA71FED345F00CAA0DC /* HiddenThreeViewController.m */,
+				EF928CA91FED347A00CAA0DC /* NormalOneViewController.h */,
+				EF928CAA1FED347A00CAA0DC /* NormalOneViewController.m */,
+				EF928CAC1FED348600CAA0DC /* NormalTwoViewController.h */,
+				EF928CAD1FED348600CAA0DC /* NormalTwoViewController.m */,
+				EF928CAF1FED349500CAA0DC /* NormalThreeViewController.h */,
+				EF928CB01FED349500CAA0DC /* NormalThreeViewController.m */,
+				EF2418371FD825D800EAAA9B /* Main.storyboard */,
+				EF24183A1FD825D800EAAA9B /* Assets.xcassets */,
+				EF24183C1FD825D800EAAA9B /* LaunchScreen.storyboard */,
+				EF24183F1FD825D800EAAA9B /* Info.plist */,
+				EF2418401FD825D800EAAA9B /* main.m */,
+			);
+			path = navDemo;
+			sourceTree = "<group>";
+		};
+		EF2418491FD825D800EAAA9B /* navDemoTests */ = {
+			isa = PBXGroup;
+			children = (
+				EF24184A1FD825D800EAAA9B /* navDemoTests.m */,
+				EF24184C1FD825D800EAAA9B /* Info.plist */,
+			);
+			path = navDemoTests;
+			sourceTree = "<group>";
+		};
+		EF2418541FD825D800EAAA9B /* navDemoUITests */ = {
+			isa = PBXGroup;
+			children = (
+				EF2418551FD825D800EAAA9B /* navDemoUITests.m */,
+				EF2418571FD825D800EAAA9B /* Info.plist */,
+			);
+			path = navDemoUITests;
+			sourceTree = "<group>";
+		};
+		EF70BD5F20E1DC160090FC3F /* NavTransition */ = {
+			isa = PBXGroup;
+			children = (
+				EF70BD6020E1DC260090FC3F /* JC_NavTransitionAnimation */,
+			);
+			path = NavTransition;
+			sourceTree = "<group>";
+		};
+		EF70BD6020E1DC260090FC3F /* JC_NavTransitionAnimation */ = {
+			isa = PBXGroup;
+			children = (
+				EF70BD6120E1DC260090FC3F /* InteractionTransitionAnimation.h */,
+				EF70BD6220E1DC260090FC3F /* InteractionTransitionAnimation.m */,
+				EF70BD6320E1DC260090FC3F /* InteractiveTrasitionAnimation.h */,
+				EF70BD6420E1DC260090FC3F /* InteractiveTrasitionAnimation.m */,
+				EF70BD6520E1DC260090FC3F /* JC_NacAnimation.h */,
+				EF70BD6620E1DC260090FC3F /* PopTransition.h */,
+				EF70BD6720E1DC260090FC3F /* PopTransition.m */,
+				EF70BD6820E1DC260090FC3F /* PushTransition.h */,
+				EF70BD6920E1DC260090FC3F /* PushTransition.m */,
+			);
+			path = JC_NavTransitionAnimation;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EF24182D1FD825D800EAAA9B /* navDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EF24185A1FD825D800EAAA9B /* Build configuration list for PBXNativeTarget "navDemo" */;
+			buildPhases = (
+				EF24182A1FD825D800EAAA9B /* Sources */,
+				EF24182B1FD825D800EAAA9B /* Frameworks */,
+				EF24182C1FD825D800EAAA9B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = navDemo;
+			productName = navDemo;
+			productReference = EF24182E1FD825D800EAAA9B /* navDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		EF2418451FD825D800EAAA9B /* navDemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EF24185D1FD825D800EAAA9B /* Build configuration list for PBXNativeTarget "navDemoTests" */;
+			buildPhases = (
+				EF2418421FD825D800EAAA9B /* Sources */,
+				EF2418431FD825D800EAAA9B /* Frameworks */,
+				EF2418441FD825D800EAAA9B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EF2418481FD825D800EAAA9B /* PBXTargetDependency */,
+			);
+			name = navDemoTests;
+			productName = navDemoTests;
+			productReference = EF2418461FD825D800EAAA9B /* navDemoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		EF2418501FD825D800EAAA9B /* navDemoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EF2418601FD825D800EAAA9B /* Build configuration list for PBXNativeTarget "navDemoUITests" */;
+			buildPhases = (
+				EF24184D1FD825D800EAAA9B /* Sources */,
+				EF24184E1FD825D800EAAA9B /* Frameworks */,
+				EF24184F1FD825D800EAAA9B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EF2418531FD825D800EAAA9B /* PBXTargetDependency */,
+			);
+			name = navDemoUITests;
+			productName = navDemoUITests;
+			productReference = EF2418511FD825D800EAAA9B /* navDemoUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EF2418261FD825D800EAAA9B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0910;
+				ORGANIZATIONNAME = slowdony;
+				TargetAttributes = {
+					EF24182D1FD825D800EAAA9B = {
+						CreatedOnToolsVersion = 9.1;
+						ProvisioningStyle = Automatic;
+					};
+					EF2418451FD825D800EAAA9B = {
+						CreatedOnToolsVersion = 9.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = EF24182D1FD825D800EAAA9B;
+					};
+					EF2418501FD825D800EAAA9B = {
+						CreatedOnToolsVersion = 9.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = EF24182D1FD825D800EAAA9B;
+					};
+				};
+			};
+			buildConfigurationList = EF2418291FD825D800EAAA9B /* Build configuration list for PBXProject "navDemo" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = EF2418251FD825D800EAAA9B;
+			productRefGroup = EF24182F1FD825D800EAAA9B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EF24182D1FD825D800EAAA9B /* navDemo */,
+				EF2418451FD825D800EAAA9B /* navDemoTests */,
+				EF2418501FD825D800EAAA9B /* navDemoUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EF24182C1FD825D800EAAA9B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EF24183E1FD825D800EAAA9B /* LaunchScreen.storyboard in Resources */,
+				EF24183B1FD825D800EAAA9B /* Assets.xcassets in Resources */,
+				EF2418391FD825D800EAAA9B /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EF2418441FD825D800EAAA9B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EF24184F1FD825D800EAAA9B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EF24182A1FD825D800EAAA9B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EF2418361FD825D800EAAA9B /* ViewController.m in Sources */,
+				EF928C991FED211F00CAA0DC /* BaseViewController.m in Sources */,
+				EF928CAB1FED347A00CAA0DC /* NormalOneViewController.m in Sources */,
+				EF2418411FD825D800EAAA9B /* main.m in Sources */,
+				EF70BD6C20E1DC260090FC3F /* PopTransition.m in Sources */,
+				EF928C9C1FED21E700CAA0DC /* SDNormalBaseViewController.m in Sources */,
+				EF2418331FD825D800EAAA9B /* AppDelegate.m in Sources */,
+				EF928CAE1FED348600CAA0DC /* NormalTwoViewController.m in Sources */,
+				EF70BD6D20E1DC260090FC3F /* PushTransition.m in Sources */,
+				EF928C9F1FED221500CAA0DC /* SDHiddenViewController.m in Sources */,
+				EF928CB11FED349500CAA0DC /* NormalThreeViewController.m in Sources */,
+				EF70BD6B20E1DC260090FC3F /* InteractiveTrasitionAnimation.m in Sources */,
+				EF928CA51FED344800CAA0DC /* HiddenTwoViewController.m in Sources */,
+				EF928CA81FED345F00CAA0DC /* HiddenThreeViewController.m in Sources */,
+				EF928CA21FED24D800CAA0DC /* HiddenOneViewController.m in Sources */,
+				EF70BD6A20E1DC260090FC3F /* InteractionTransitionAnimation.m in Sources */,
+				EF24186E1FD83BB300EAAA9B /* MyNavgationViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EF2418421FD825D800EAAA9B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EF24184B1FD825D800EAAA9B /* navDemoTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EF24184D1FD825D800EAAA9B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EF2418561FD825D800EAAA9B /* navDemoUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		EF2418481FD825D800EAAA9B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EF24182D1FD825D800EAAA9B /* navDemo */;
+			targetProxy = EF2418471FD825D800EAAA9B /* PBXContainerItemProxy */;
+		};
+		EF2418531FD825D800EAAA9B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EF24182D1FD825D800EAAA9B /* navDemo */;
+			targetProxy = EF2418521FD825D800EAAA9B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		EF2418371FD825D800EAAA9B /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EF2418381FD825D800EAAA9B /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		EF24183C1FD825D800EAAA9B /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EF24183D1FD825D800EAAA9B /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		EF2418581FD825D800EAAA9B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		EF2418591FD825D800EAAA9B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EF24185B1FD825D800EAAA9B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 3PYAVNJVS7;
+				INFOPLIST_FILE = navDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = slowdony.navDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		EF24185C1FD825D800EAAA9B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 3PYAVNJVS7;
+				INFOPLIST_FILE = navDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = slowdony.navDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		EF24185E1FD825D800EAAA9B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = navDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = slowdony.navDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/navDemo.app/navDemo";
+			};
+			name = Debug;
+		};
+		EF24185F1FD825D800EAAA9B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = navDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = slowdony.navDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/navDemo.app/navDemo";
+			};
+			name = Release;
+		};
+		EF2418611FD825D800EAAA9B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = navDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = slowdony.navDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = navDemo;
+			};
+			name = Debug;
+		};
+		EF2418621FD825D800EAAA9B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = navDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = slowdony.navDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = navDemo;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EF2418291FD825D800EAAA9B /* Build configuration list for PBXProject "navDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EF2418581FD825D800EAAA9B /* Debug */,
+				EF2418591FD825D800EAAA9B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EF24185A1FD825D800EAAA9B /* Build configuration list for PBXNativeTarget "navDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EF24185B1FD825D800EAAA9B /* Debug */,
+				EF24185C1FD825D800EAAA9B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EF24185D1FD825D800EAAA9B /* Build configuration list for PBXNativeTarget "navDemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EF24185E1FD825D800EAAA9B /* Debug */,
+				EF24185F1FD825D800EAAA9B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EF2418601FD825D800EAAA9B /* Build configuration list for PBXNativeTarget "navDemoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EF2418611FD825D800EAAA9B /* Debug */,
+				EF2418621FD825D800EAAA9B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = EF2418261FD825D800EAAA9B /* Project object */;
+}
