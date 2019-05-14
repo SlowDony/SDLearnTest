@@ -1,0 +1,7 @@
+source 'Https://github.com/CocoaPods/Specs.git'
+
+#资源库
+source 'https://gitee.com/slowdony/SDTestSpec.git'
+target 'SDTest' do
+pod 'SDTestSpec'
+end

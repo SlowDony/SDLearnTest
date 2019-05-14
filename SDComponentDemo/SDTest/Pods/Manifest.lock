@@ -1,0 +1,16 @@
+PODS:
+  - SDTestSpec (0.1.0)
+
+DEPENDENCIES:
+  - SDTestSpec
+
+SPEC REPOS:
+  https://gitee.com/slowdony/SDTestSpec.git:
+    - SDTestSpec
+
+SPEC CHECKSUMS:
+  SDTestSpec: 5ab9890d103c5cca0ce35098ab6b7e05361153cd
+
+PODFILE CHECKSUM: c7bcdac012e4708b3078ceadcc08b2f3e31e98a3
+
+COCOAPODS: 1.6.1
